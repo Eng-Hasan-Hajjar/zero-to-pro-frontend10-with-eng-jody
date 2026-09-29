@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson4</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>جدول درجات الطلاب</caption>
+        <thead>
+            <tr>
+                <th>اسم الطالب</th>
+                <th>المادة</th>
+                <th>الدرجة</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>أحمد محمد</td>
+                <td>HTML</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>سارة علي</td>
+                <td>CSS</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">المتوسط</td>
+                <td>91.5</td>
+            </tr>
+        </tfoot>
+
+
+
+
+    </table>
+
+
+    <BR>
+    <hr>
+    
+    <table border="9" cellpadding="8" cellspacing="10" width="100%" >
+        <caption><strong>برنامج كورس Front-End</strong></caption>
+        <thead>
+            <tr bgcolor="#1A3C5E">
+                <th style="color:white">#</th>
+                <th style="color:white">الجلسة</th>
+                <th style="color:rgb(18, 212, 24)">المحتوى</th>
+                <th style="color:rgb(255, 9, 9)">المدة</th>
+            </tr>
+        </thead>
+        <tbody bgcolor="#99999" align="center">
+            <tr>
+                <td align="center">1</td>
+                <td align="center">مقدمة HTML</td>
+                <td>الهيكل الأساسي، العناصر، الروابط</td>
+                <td align="center">3 ساعات</td>
+            </tr>
+            <tr >
+                <td align="center">2</td>
+                <td>HTML المتقدم</td>
+                <td>الجداول، النماذج، Semantic HTML</td>
+                <td align="center">3 ساعات</td>
+            </tr>
+            <tr>
+                <td align="center" colspan="3"><strong>المجموع</strong></td>
+                <td align="center"><strong>6 ساعات</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- الطريقة الأولى: ربط بـ for و id -->
+<label for="username">اسم المستخدم:</label>
+<input type="text" id="username" name="username" />
+
+<!-- الطريقة الثانية: تغليف الحقل داخل label -->
+<label>
+  البريد الإلكتروني:
+  <input type="email" name="email" />
+</label>
+
+
+<label>
+  password :
+  <input type="password" name="password" />
+</label>
+
+</body>
+
+</html>
